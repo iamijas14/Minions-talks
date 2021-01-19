@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital@1&display=swap');
+
+:root{
+    --primarycolor:#FBBF24;
+}
+
+body{
+    font-family: 'Cabin', sans-serif;
+
+}
+
+#txt-area{
+        display:block;
+        width: 80%;
+        height: 15vh;
+        padding: 1rem;
+        border:1px solid black;
+        margin: auto;
+
+}
+
+#output{
+    border:1px solid black;
+    width: 80%;
+    height: 15vh;
+    padding: 1rem;
+    display: block;
+    margin:auto;
+}
+
+.heading {
+    background-color:var(--primarycolor) ;
+    font-size: 2rem;
+    padding: 0.5px;
+    padding-bottom: 0.5px;
+    text-align: center;
+    width: 100%;
+    
+} 
+
+#btn-trans{
+    display: block;
+    margin:auto;
+    width:20%;
+    background-color: var(--primarycolor);
+    border-radius: 0.5rem;
+    font-weight: bold;
+    padding:0.3rem;
+    cursor: pointer;
+}
+
+.description{
+    text-align: center;
+    font-weight: 800;
+}
+
+.footer{
+    background-color:var(--primarycolor); 
+    padding: 1rem;
+    text-align: center;
+    font-weight: 500;
+    font-size: larger;
+}
+
+.para{
+    font-weight: 200;
+    font-size: 1rem;
+    text-align: center;
+    max-width: 50%;
+    margin:auto ;
+    
+}
+
+.paraa{
+    text-align: right;
+    font-size:1rem ;
+}
