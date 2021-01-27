@@ -14,6 +14,12 @@ function getUrl(text)
     return serverUrl + "?" + "text=" +text
 }
 
+function errorHandler(error)
+{
+    console.log("error occured",error);
+    alert("Server busy, try after sometime.")
+}
+
 function clickHandler(){
 
 
@@ -28,4 +34,5 @@ function clickHandler(){
     var translatedText = json.contents.translated;
     outPut.innerText=translatedText;
     })
+    .catch(errorHandler)
 }
